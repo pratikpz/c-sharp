@@ -2,7 +2,7 @@
 using System;
 public class Sequence2{
 public static void Main(string[] args){
-    Console.WriteLine("Enter the N");
+    Console.WriteLine("Enter the number");
     int n = Convert.ToInt32(Console.ReadLine());
     double sum = 1.0;
     for(int i = 2 ; i <= n ; i++){
