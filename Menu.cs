@@ -5,7 +5,7 @@ public class Menu{
         int choice = Convert.ToInt32(Console.ReadLine());
         switch(choice){
             case 1:
-            Console.WriteLine("Enter length of the Square");
+            Console.WriteLine("Enter the length of the Square");
             double l = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("The Perimeter of Square is : "4*l)
             break;
